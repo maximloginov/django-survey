@@ -6,6 +6,7 @@
 {% block body %}
 <h1>{% trans "Survey submitted"%}</h1>
 <p>
+    {% block extra %}{% endblock %}
     <div class="alert alert-success">
        {% trans "Thanks! Your answers have been saved" %}
     </div>
